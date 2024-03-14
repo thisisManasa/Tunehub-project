@@ -1,0 +1,86 @@
+@charset "ISO-8859-1";
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #222;
+    color: #fff;
+}
+
+.background-image {
+    background-image: url(https://assets.materialup.com/uploads/6ba24a9b-ea9b-4327-a772-b2b129514776/preview.png);
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    position: relative;
+}
+
+.overlay {
+    background: rgba(0, 0, 0, 0.5);
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.header {
+    text-align: left;
+    padding: 20px;
+    color: #fff;
+    margin-top: auto;
+    position: relative;
+    left: 150px;
+    height: 500px;
+    width: 500px;
+    letter-spacing: 2px;
+    
+}
+
+.header h1 {
+    margin: 0;
+    font-size: 3em;
+}
+
+.navigation {
+    text-align: center;
+    margin: 20px 0;
+    position: relative;
+    left: 460px;
+    bottom: 550px;
+    
+    
+}
+
+.navigation ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+}
+
+.navigation li {
+    margin: 0;
+}
+
+.navigation a {
+    text-decoration: none;
+    padding: 10px 20px;
+    background-color: #0000ff;
+    color: #fff;
+    border-radius: 15px;
+    margin: 0 10px;
+    transition: background-color 0.3s ease;
+    padding: 10px 20px;
+}
+
+.navigation a:hover {
+    background-color: #808080;
+}
+
+.footer {
+    text-align: center;
+    padding: 10px 0;
+    background-color: #333;
+    color: #fff;
+}
